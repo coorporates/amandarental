@@ -168,7 +168,7 @@ body {
   padding: 8rem 7% 1.4rem;
   background-image: url(rental-mobil.png);
   background-repeat: no-repeat;
-  background-size: 60rem;
+  background-size: 50rem;
   background-position: center;
   position: relative;
 }
@@ -321,7 +321,6 @@ body {
 
 .products .product-card {
   text-align: center;
-  border: 1px solid #666;
   padding: 2rem;
 }
 
@@ -356,6 +355,10 @@ body {
 
 .products .product-image img {
   height: 25rem;
+}
+
+.products .row .product-card .product-image img {
+  width: 480px;
 }
 
 .products .product-content h3 {
@@ -621,6 +624,10 @@ footer .credit a {
     font-size: 1.2rem;
   }
 
+  .products .row .product-card .product-image img {
+    width: 280px;
+  }
+
   .contact .row {
     flex-wrap: wrap;
   }
@@ -643,5 +650,9 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+
+  .products .row .product-card .product-image img {
+    width: 300px;
   }
 }
