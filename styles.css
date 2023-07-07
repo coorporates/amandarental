@@ -196,7 +196,13 @@ body {
 .content-p span {
   color: blue;
   font-style: italic;
+  cursor: pointer;
 }
+
+.content .content-p span:hover {
+  color: coral;
+}
+
 .hero .content h1 span {
   color: blue;
 }
@@ -649,10 +655,23 @@ footer .credit a {
 
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 45%;
   }
-
+  body {
+    width: 100%;
+    min-height: 200px;
+  }
   .products .row .product-card .product-image img {
     width: 300px;
+  }
+
+  .content-p span {
+    color: blue;
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  .content .content-p span:hover {
+    color: coral;
   }
 }
