@@ -674,4 +674,8 @@ footer .credit a {
   .content .content-p span:hover {
     color: coral;
   }
+
+  .content-li {
+    font-size: 1.3rem;
+  }
 }
